@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results summary component | By Chinex</title>
+    <link rel="stylesheet" href="css/output1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Hanken+Grotesk" rel="stylesheet">
+</head>
+
+<body class="antialiased">
+    <div class="w-full min-h-screen grid place-items-center">
+        <div
+            class="w-full flex flex-col md:flex-row md:w-[500px] h-screen md:h-[350px] bg-white md:shadow-2xl md:rounded-[30px]">
+            <div
+                class="w-full h-[44%] md:w-1/2 md:h-full bg-lightRoyalBlue rounded-b-[30px] md:rounded-[30px] grid place-items-center py-2">
+                <div class="w-[250px] flex flex-col items-center space-y-6 text-white">
+                    <p class="text-lightLavender font-semibold">Your Result</p>
+                    <div class="animate-pulse w-36 h-36 md:w-32 md:h-32 bg-gradient-to-b from-persianBlue to-violetBlue rounded-full bg-blue-900 space-y-2 flex flex-col items-center justify-center">
+                        <p class="text-5xl font-extrabold">76</p>
+                        <p class="text-lightLavender">of 100</p>
+                    </div>
+                    <div class="text-center space-y-4">
+                        <p class="text-2xl font-bold">Great</p>
+                        <p class="md:w-40 text-sm md:text-xs text-lightLavender">
+                            You scored higher than 65% of the people who have taken these tests.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 md:text-sm bg-white md:rounded-[30px] p-8 md:p-6 space-y-6">
+                <p class="text-darkGrayBlue font-semibold md:text-md text-lg">Summary</p>
+                <div class="flex flex-col space-y-4 md:space-y-2">
+                    <div class="w-full p-4 md:p-2 rounded-lg flex justify-between bg-lighterRed">
+                        <div class="flex space-x-2">
+                            <img src="assets/images/icon-reaction.svg" alt="reaction">
+                            <p class="text-lightRed">Reaction</p>
+                        </div>
+                        <div>
+                            <p class="text-lightLavender font-semibold"><span class="text-black">80</span> / 100</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-4 md:p-2 rounded-md flex justify-between bg-lightorangeyYellow">
+                        <div class="flex space-x-2">
+                            <img src="assets/images/icon-memory.svg" alt="Memory">
+                            <p class="text-orangeyYellow">Memory</p>
+                        </div>
+                        <div>
+                            <p class="text-lightLavender font-semibold"><span class="text-black">92</span> / 100</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-4 md:p-2 rounded-md flex justify-between bg-lightgreenteal">
+                        <div class="flex space-x-2">
+                            <img src="assets/images/icon-verbal.svg" alt="Verbal">
+                            <p class="text-greenteal">Verbal</p>
+                        </div>
+                        <div>
+                            <p class="text-lightLavender font-semibold"><span class="text-black">61</span> / 100</p>
+                        </div>
+                    </div>
+                    <div class="w-full p-4 md:p-2 rounded-md flex justify-between bg-paleBlue">
+                        <div class="flex space-x-2">
+                            <img src="assets/images/icon-visual.svg" alt="Visual">
+                            <p class="text-cobaltblue">Visual</p>
+                        </div>
+                        <div>
+                            <p class="text-lightLavender font-semibold"><span class="text-black">72</span> / 100</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="md:hidden w-full text-white text-center py-4 md:py-2 bg-darkGrayBlue hover:bg-lightRoyalBlue rounded-full">Continue</a>
+                </div>
+                <div class="hidden md:block w-full">
+                    <a href="#" class="block w-full text-white text-center py-4 md:py-2 bg-darkGrayBlue hover:bg-lightRoyalBlue rounded-full">Continue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
